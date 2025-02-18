@@ -110,6 +110,8 @@ app.post("/botimage", upload.single("file"), async (req, res, next) => {
     image: fs.createReadStream(filePath),
     type: "stream",
   });
+
+
   console.log(response);
   res.send(response.data.link);
 });

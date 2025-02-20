@@ -150,7 +150,7 @@ export async function checkIfEmail(email) {
 // const teamData = await deleteTeam(
 //   1,
 //   "2024onham",
-//   "97feee36-7fd0-46ab-a80e-8b8e24fc7a2e"
+//   `${import.meta.env.VITE_BACKEND_API_KEY}`
 // );
 // console.log(teamData);
 
@@ -162,14 +162,14 @@ export async function checkIfEmail(email) {
 //   '["leadership", "creativity", "communication"]',
 //   '["impatience", "perfectionism", "disorganization"]',
 //   "2024onham",
-//   "97feee36-7fd0-46ab-a80e-8b8e24fc7a2e"
+//   `${import.meta.env.VITE_BACKEND_API_KEY}`
 // );
 // console.log(teamData);
 
 // const teamData = await getTeamData(
 //   1,
 //   "2024onham",
-//   "97feee36-7fd0-46ab-a80e-8b8e24fc7a2e"
+//   `${import.meta.env.VITE_BACKEND_API_KEY}`
 // );
 // console.log(teamData);
 
@@ -182,6 +182,6 @@ export async function checkIfEmail(email) {
 //   '["leadership", "creativity", "communication"]',
 //   '["impatience", "perfectionism", "disorganization"]',
 //   "2024onham",
-//   "97feee36-7fd0-46ab-a80e-8b8e24fc7a2e"
+//   `${import.meta.env.VITE_BACKEND_API_KEY}`
 // );
 // console.log(teamPublish);
